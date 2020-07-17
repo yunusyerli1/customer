@@ -12,6 +12,30 @@
         "relatedFirm": "",
         "TCKN/VKN":"11122233344",
         "portalInformation":"password"
+      },{
+        "id": "customer2",
+        "name": "Zeynep Batmaz",
+        "phone": "05363455558",
+        "address": "Zeytinburnu",
+        "email": "aa@aaa.com",
+        "website":"www.zeynep.com",
+        "customerType": "Tüzel",
+        "title":"CEO",
+        "relatedFirm": "Google Inc.",
+        "TCKN/VKN":"11122233355",
+        "portalInformation":"password"
+      },{
+        "id": "customer3",
+        "name": "Ahmet Batmaz",
+        "phone": "05355555555",
+        "address": "Merter",
+        "email": "cc@ccc.com",
+        "website":"www.ahmet.com",
+        "customerType": "Şahıs",
+        "title":"Owner",
+        "relatedFirm": "",
+        "TCKN/VKN":"22222233344",
+        "portalInformation":"password"
       }
     ]
   }
