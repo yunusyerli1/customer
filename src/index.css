@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+body,
+input,
+select,
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+}
+
+
+
+/*customer list page design*/
+
+.content{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .main{
+    flex: 4 45rem;
+  }
+  .sidebar{
+    flex: 1 10rem;
+    background-color: gainsboro;
+  }
+
+
+
+/*table*/
+
+.list {
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+  #customers{
+    width: 1400px;
+
+    border-collapse: collapse;
+  }
+  #customers th{
+      border-bottom: 0.2rem black solid;
+      
+  }
+  tbody > tr:nth-child(odd) {
+    background-color: #f0f0f0;
+  }
+  td {
+    padding: 5px;
+  }
+  th {
+    text-align: left;
+  }
+
+  /*button*/
+  
+  .button {
+    padding: 1rem;
+    border: 0.2rem #c0c0c0 solid;
+    background-color: white;
+    color: rgb(58, 143, 210);
+    border-color: rgb(58, 143, 210);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .button:hover {
+    border: 0.1rem #808080 solid;
+  }
+  .button.big {
+    display: block;
+    width: 80%;
+    padding: 14px 28px;
+    margin: 3rem auto;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+ 

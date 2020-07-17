@@ -1,0 +1,18 @@
+{
+    "customers": [
+      {
+        "id": "customer1",
+        "name": "Zeynep Özay",
+        "phone": "05363455559",
+        "address": "Maltepe",
+        "email": "dd@ddd.com",
+        "website":"",
+        "customerType": "Şahıs",
+        "title":"",
+        "relatedFirm": "",
+        "TCKN/VKN":"11122233344",
+        "portalInformation":"password"
+      }
+    ]
+  }
+  
