@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+import circleName from '../util';
 
-const List = () => {
+const List = ({customers}) => {
+    
     return (
+        !customers 
+            ? <div>Loading...</div>
+            :(
         <div className="list">
+            
                 <table id="customers">
                 <thead>
                     <tr>
+                        <th className="hiddenBorder" > </th>
                         <th>Customer Name</th>
                         <th>Type</th>
                         <th>Related Firm</th>
@@ -15,20 +22,24 @@ const List = () => {
                         <th>Portal Information</th>
                     </tr>    
                 </thead> 
+                
                 <tbody>
-                    
-                        <tr>
-                            <td>id</td>
-                            <td>createdAt</td>
-                            <td>order.total</td>
-                            <td>order.name</td>
-                            <td>order.email</td>
-                            <td>order.address</td>
-                            <td>order.cartItems.map</td>
-                        </tr>
-                </tbody>   
+                        {customers.map((customer) => (
+                            <tr key={customer.id}>
+                                <td><span className="round" >{circleName(customer.name)}</span></td>
+                                <td key={customer}>{customer.name}</td>
+                                <td>{customer.customerType}</td>
+                                <td>{customer.relatedFirm}</td>
+                                <td>{customer.address}</td>
+                                <td>{customer.phone}</td>
+                                <td>{customer.email}</td>
+                                <td>{customer.portalInformation}</td>
+                                
+                            </tr>
+                        ))}
+                    </tbody>   
             </table>   
-         </div>
+         </div>)
     )
 }
 export default List;

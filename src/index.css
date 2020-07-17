@@ -42,34 +42,47 @@ textarea {
     width: 100%;
     padding-top: 100px;
     padding-left: 100px;
+    color: #3a8fd2;
   }
   #customers{
     width: 1400px;
-
     border-collapse: collapse;
   }
   #customers th{
-      border-bottom: 0.2rem black solid;
-      
+      border-bottom: 0.2rem #3a8fd2 solid;
+
   }
-  tbody > tr:nth-child(odd) {
-    background-color: #f0f0f0;
+
+  .hiddenBorder{
+    border:none !important;
   }
+ 
   td {
-    padding: 5px;
+    padding: 1rem;
   }
   th {
     text-align: left;
+  }
+  .round {
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px #3a8fd2 solid;
+    
+   
+    
   }
 
   /*button*/
   
   .button {
     padding: 1rem;
-    border: 0.2rem #c0c0c0 solid;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 3px;
     background-color: white;
-    color: rgb(58, 143, 210);
-    border-color: rgb(58, 143, 210);
+    color: #3a8fd2;
+    border-color: #3a8fd2;
     font-weight: 600;
     cursor: pointer;
   }
@@ -80,8 +93,14 @@ textarea {
     display: block;
     width: 80%;
     padding: 14px 28px;
-    margin: 3rem auto;
+    margin: 3rem 0.5rem;
     font-size: 1.6rem;
     text-align: center;
   }
  
+.button.small{
+  display: inline-flex;
+  width: 40%;
+  padding: 8px 18px;
+  margin: 0.5rem;
+}
