@@ -18,7 +18,7 @@ import {connect} from 'react-redux';
                     <List customers={customers}/>
                 </div>
                 <div className="sidebar">
-                    <SideBar customers={customers}/>
+                    <SideBar/>
                 </div>
             </div>
         )

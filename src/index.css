@@ -27,11 +27,12 @@ textarea {
     flex-wrap: wrap;
   }
   .main{
-    flex: 4 45rem;
+    flex: 3 45rem;
   }
   .sidebar{
     flex: 1 10rem;
-    background-color: gainsboro;
+    
+    
   }
 
 
@@ -39,26 +40,30 @@ textarea {
 /*table*/
 
 .list {
-    width: 100%;
+    width: 90%;
     padding-top: 100px;
     padding-left: 100px;
     color: #3a8fd2;
   }
   #customers{
-    width: 1400px;
+    width: 1300px;
     border-collapse: collapse;
   }
   #customers th{
       border-bottom: 0.2rem #3a8fd2 solid;
 
   }
-
+  .table-link{
+    text-decoration: none; 
+  }
   .hiddenBorder{
     border:none !important;
   }
  
   td {
     padding: 1rem;
+    text-align: left;
+    
   }
   th {
     text-align: left;
@@ -70,6 +75,7 @@ textarea {
     background-color: white;
     border: 1px #3a8fd2 solid;
     
+  
    
     
   }
@@ -102,5 +108,106 @@ textarea {
   display: inline-flex;
   width: 40%;
   padding: 8px 18px;
-  margin: 0.5rem;
+  margin: 0.3rem;
+}
+
+/*sidebar-form*/
+
+.sidebar-form{
+  display: flex;
+  border-left: 0.2rem #3a8fd2 solid;
+  align-items: center;
+  height: 100%;
+  color:#3a8fd2;
+  
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  width:36rem;
+  padding: 2rem;
+  border-radius: .5rem;
+  list-style-type: none;
+  
+}
+.form-row{
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+
+  
+}
+
+input{
+  padding: 1rem;
+  border: .1rem #dddcdc solid;
+  border-radius: .5rem;
+}
+input:focus {
+  color: #3a8fd2;
+}
+.form-row > input {
+  flex: 2;
+  padding: .5rem;
+}
+.form-row > label {
+  padding: .5em 1em .5em 0;
+  flex: 1;
+}
+form > div{
+  display: flex;
+  justify-content: space-between;
+}
+form > p {
+  margin-left: 25px;
+}
+.close-sidebar{
+ cursor: pointer;
+ border: 2px #3a8fd2 solid;
+ border-radius: 50%;
+ padding:0.4rem;
+ font-weight: bolder;
+}
+
+.radio{
+  align-items: baseline;
+}
+
+.button-line{
+  display: flex;
+  border-top: 2px #3a8fd2 solid;
+  padding-top:1.5rem;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  
+
+}
+.another{
+
+  margin-right: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*details page design*/
+.content-details{
+  display:flex;
+  flex-wrap: wrap;
+  background-color: cadetblue;
+}
+.main-details{
+  flex: 3 45rem;
+  background-color: chartreuse;
+}
+.sidebar-details{
+  flex: 1 10rem;
+  background-color: coral;
 }
