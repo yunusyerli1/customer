@@ -7,11 +7,11 @@
         "address": "Maltepe",
         "email": "dd@ddd.com",
         "website":"",
-        "customerType": "Şahıs",
-        "title":"",
+        "customerType": "Gerçek",
+        "title":"Owner",
         "relatedFirm": "",
-        "TCKN/VKN":"11122233344",
-        "portalInformation":"password"
+        "identity":"11122233344",
+        "note":"password"
       },{
         "id": "customer2",
         "name": "Zeynep Batmaz",
@@ -22,8 +22,8 @@
         "customerType": "Tüzel",
         "title":"CEO",
         "relatedFirm": "Google Inc.",
-        "TCKN/VKN":"11122233355",
-        "portalInformation":"password"
+        "identity":"11122233355",
+        "note":"password"
       },{
         "id": "customer3",
         "name": "Ahmet Batmaz",
@@ -31,11 +31,11 @@
         "address": "Merter",
         "email": "cc@ccc.com",
         "website":"www.ahmet.com",
-        "customerType": "Şahıs",
+        "customerType": "Gerçek",
         "title":"Owner",
         "relatedFirm": "",
-        "TCKN/VKN":"22222233344",
-        "portalInformation":"password"
+        "identity":"22222233344",
+        "note":"password"
       }
     ]
   }
